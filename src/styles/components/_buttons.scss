@@ -1,0 +1,42 @@
+
+.btn {
+    
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color .3s ease;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: darken($color: white, $amount: 10);
+    }
+    
+}
+
+
+.btn-primary {
+    background-color: $btn-blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    &:hover {
+        background-color: $btn-active-blue;
+        color: black;
+    }
+    
+    &:disabled {
+        background-color: lighten($color: $primary, $amount: 15);
+    }
+}
+

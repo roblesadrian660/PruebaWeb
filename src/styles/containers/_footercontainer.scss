@@ -1,0 +1,21 @@
+.footercontainer__main {
+    text-align: center;
+}
+
+.footercontainer__text-uppercase {
+    font-weight: 700;
+    color: #000000;
+}
+
+.footercontainer__main-content .link,
+.footercontainer__text-descrip {
+    color: #080808;
+}
+
+.footercontainer__main-content {
+    align-items: center;
+    background-color: $primary;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}

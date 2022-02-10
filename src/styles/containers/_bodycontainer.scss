@@ -1,0 +1,34 @@
+.bodycontainer__main {
+    text-align: left;
+    background-color: $secondary;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.bodycontainer__main-content {
+    width: 69vw;
+}
+
+.bodycontainer__card-img {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 80px;
+    &:hover {
+        filter: saturate(180%);
+    }
+}
+
+.styles-module_carousel-arrow__26sRw:first-child {
+    border: solid black;
+    border-width: 3px 3px 3px 3px;
+    display: inline-block;
+    padding: 0px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    font-size: 18px;
+    width: 17px;
+    height: 17px;
+    background-color: #ffff;
+    display: none;
+}
